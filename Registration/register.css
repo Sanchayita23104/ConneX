@@ -1,0 +1,109 @@
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.details-box{
+  width:330px;
+  margin:auto; 
+  top:50%;
+  transform: translate(0, 50%);
+  padding:5px 5px;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+}
+.register-text{
+  display: block;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+.register-description{
+  text-align: center;
+}
+.username {
+  padding:8px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border-width:1px;
+  position: relative;
+}
+.email{
+  padding:8px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  display:block;
+  border-radius: 5px;
+  border-width:1px;
+}
+.password {
+  padding:8px;
+  width: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border-width:1px;
+}
+.confirm-password{
+  padding:8px;
+  width: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  border-radius: 5px;
+  border-width:1px;
+}
+
+.register-button {
+  padding:8px;
+  width: 295px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom:25px;
+  border-width: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(226, 226, 226);
+  border:none;
+  background-color: rgb(92, 92, 252);
+  box-shadow: 2px 5px 12px rgb(0, 0, 0);
+}
+.login:hover {
+  color: white;
+  background-color: rgb(193, 193, 193);
+}
+.login-option {
+  text-align: center;
+  display: block;
+}
+.signup {
+  text-align: center;
+  display: inline-block;
+}
+.input-box{
+  
+}
+.user-icon,
+.email-icon,
+.password-icon,
+.confirm-password-icon{
+  z-index:1;
+  height:14px;
+  margin-top:8px;
+  margin-left:22px;
+  position: absolute;
+  color:rgb(92, 92, 252);
+}
