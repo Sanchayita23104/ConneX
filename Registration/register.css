@@ -7,9 +7,11 @@
 
 .details-box{
   width:330px;
-  margin:auto; 
+  margin:auto;
+  margin-top: 180px;
+
   top:50%;
-  transform: translate(0, 50%);
+  transform: translate(0 50%);
   padding:5px 5px;
   align-items: center;
   background-color: white;
@@ -17,14 +19,17 @@
 }
 .register-text{
   display: block;
+  padding:15px;
   text-align: center;
   color:rgb(0, 0, 0);
   font-weight: bold;
 }
 .register-description{
+  padding:15px;
   text-align: center;
 }
 .username {
+  margin-top:15px;
   padding:8px;
   width: 280px;
   margin-left: auto;
@@ -56,6 +61,16 @@
   border-width:1px;
 }
 .confirm-password{
+  padding:8px;
+  width: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  border-radius: 5px;
+  border-width:1px;
+  margin-bottom: 15px;
+}
+.college-name{
   padding:8px;
   width: 280px;
   display: block;
@@ -99,11 +114,113 @@
 .user-icon,
 .email-icon,
 .password-icon,
-.confirm-password-icon{
+.confirm-password-icon,
+.college-name-icon{
   z-index:1;
   height:14px;
   margin-top:8px;
   margin-left:22px;
   position: absolute;
   color:rgb(92, 92, 252);
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+   align-items:center;
+   justify-content:center;
+
+}
+
+.form {
+  width: 100px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.container {
+  height: 100;
+  width: ;
+  align-items: center;  
+  justify-content: center;
+
+}
+
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  padding:1px;
+  width: 295px;
+  display: block;
+  margin-top:15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+
+.drop_box {
+  border
+  margin: 0px 0;
+  padding: 20px;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.drop_box h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.drop_box p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #005af0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #005af0;
+  padding: 10px 20px;
+  border: none;
+  outline: 1px solid #010101;
+}
+.form input {
+  margin: 10px 0; 
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
 }
