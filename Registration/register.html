@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Connex Register</title>
     <link rel="stylesheet" href="register.css" />
-    <link rel="stylesheet" href="gereral.css" />     
+    <link rel="stylesheet" href="gereral.css" />
   </head>
   <body>
     <div class="body">
@@ -23,6 +23,23 @@
           <input class="password" type="text" placeholder="&emsp;&emsp;Enter Password" />
           <img class="confirm-password-icon" src="icons/lock-solid.svg" alt="">
           <input class="confirm-password" type="text" placeholder="&emsp;&emsp;Confirm Password"/>
+          <img class="college-name-icon" src="icons/building-columns-solid.svg" alt="">
+          <input class="college-name" type="text" placeholder="&emsp;&emsp;Enter University Name">
+
+
+
+            <div class="card">   
+              <div class="drop_box"> 
+                <header>
+                  <h4>Upload your University/Institute Identity Card</h4>
+                </header>   
+                <p>Files Supported: PDF, JPEG, PNG, DOCX</p>
+                <input type="file" hidden accept=".doc,.docx,.pdf" id="fileID" style="display:none;">
+                <button class="btn">Choose File</button>
+              </div>
+          
+            </div>
+                                             
         </div>
         <button class="register-button">Register</button>
         <p class="login-option">
